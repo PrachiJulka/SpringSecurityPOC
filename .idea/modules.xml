@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ttn.springSecurityPOC.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ttn.springSecurityPOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ttn.springSecurityPOC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ttn.springSecurityPOC.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ttn.springSecurityPOC.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ttn.springSecurityPOC.test.iml" />
+    </modules>
+  </component>
+</project>
