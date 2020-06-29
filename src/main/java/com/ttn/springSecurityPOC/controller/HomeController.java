@@ -12,12 +12,12 @@ public class HomeController {
     }
 
     @GetMapping("/user")
-    public String userHome(){
+    public String user(){
         return ("WELCOME TO CONTACT BOOK USER");
     }
 
     @GetMapping("/admin")
-    public String adminHome(){
+    public String admin(){
         return ("WELCOME TO CONTACT BOOK ADMIN");
     }
 
