@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7c72d71-7d68-4857-872e-bbb30634a476" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ttn/springSecurityPOC/SpringSecurityPocApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/ttn/springSecurityPOC/SpringSecurityPocApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ttn/springSecurityPOC/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/ttn/springSecurityPOC/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ttn/springSecurityPOC/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/ttn/springSecurityPOC/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -60,13 +62,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/config/SecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="259">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="729" column="40" selection-start-line="729" selection-start-column="40" selection-end-line="729" selection-end-column="40" />
+              <folding>
+                <element signature="e#52128#52129#0" expanded="true" />
+                <element signature="e#52166#52167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/service/MyUserDetailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="19" column="69" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,6 +137,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,26 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="328" column="46" selection-start-line="328" selection-start-column="46" selection-end-line="328" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="150">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -171,6 +172,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Whitelabel Error Page</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -180,11 +186,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/dao/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/MyUserDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/service/MyUserDetailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/SpringSecurityPocApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/SpringSecurityPocApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/service/MyUserDetailService.java" />
       </list>
     </option>
   </component>
@@ -206,6 +212,11 @@
             <path>
               <item name="springSecurityPOC" type="b2602c69:ProjectViewProjectNode" />
               <item name="springSecurityPOC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="springSecurityPOC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springSecurityPOC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SpringSecurityPOC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springSecurityPOC" type="b2602c69:ProjectViewProjectNode" />
@@ -819,7 +830,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593432623903" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593436030514" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../contactBook" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -885,15 +896,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593425435406</updated>
-      <workItem from="1593425438754" duration="7031000" />
+      <workItem from="1593425438754" duration="10534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7031000" />
+    <option name="totallyTimeSpent" value="10534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -913,8 +925,8 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3306189" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3306189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1335,20 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="653" selection-start-line="653" selection-end-line="653" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/AbstractConfiguredSecurityBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1377,20 +1375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/SpringSecurityPocApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1408,6 +1392,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/SpringSecurityPocApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/MyUserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1418,27 +1420,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/service/MyUserDetailService.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="450" column="61" lean-forward="true" selection-start-line="450" selection-start-column="61" selection-end-line="450" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.1.11.RELEASE/a4ba3b3f8a7b6b9a90c44ad09635b1806d953b81/spring-security-config-5.1.11.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="729" column="40" selection-start-line="729" selection-start-column="40" selection-end-line="729" selection-end-column="40" />
+          <folding>
+            <element signature="e#52128#52129#0" expanded="true" />
+            <element signature="e#52166#52167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/service/MyUserDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttn/springSecurityPOC/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="285">
+          <caret line="19" column="69" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
